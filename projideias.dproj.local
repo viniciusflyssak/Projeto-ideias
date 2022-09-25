@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2021/04/13 01:02:20.716,=C:\Users\vinic\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/04/13 01:03:05.685,C:\Users\vinic\OneDrive\Documentos\Embarcadero\Studio\Projects\projeto ideias\frmPrincipal.pas=C:\Users\vinic\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/04/13 01:03:05.685,C:\Users\vinic\OneDrive\Documentos\Embarcadero\Studio\Projects\projeto ideias\frmPrincipal.fmx=C:\Users\vinic\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2021/04/13 01:32:29.694,=C:\Users\vinic\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/04/13 01:37:50.862,C:\Users\vinic\OneDrive\Documentos\Embarcadero\Studio\Projects\projeto ideias\DataModule.dfm=C:\Users\vinic\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2021/04/13 01:37:50.862,C:\Users\vinic\OneDrive\Documentos\Embarcadero\Studio\Projects\projeto ideias\DataModule.pas=C:\Users\vinic\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/04/13 01:40:49.542,C:\Users\vinic\OneDrive\Documentos\Embarcadero\Studio\Projects\projeto ideias\projideias.dproj=C:\Users\vinic\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/04/13 01:43:18.843,C:\Users\vinic\OneDrive\Documentos\Embarcadero\Studio\Projects\projeto ideias\DataModule.pas=</Transaction>
+  </Transactions>
+</BorlandProject>

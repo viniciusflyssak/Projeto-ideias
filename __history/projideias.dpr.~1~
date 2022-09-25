@@ -1,0 +1,16 @@
+program projideias;
+
+uses
+  System.StartUpCopy,
+  FMX.Forms,
+  frmPrincipal in 'frmPrincipal.pas' {frmTelaPrincipal},
+  DataModule in 'DataModule.pas' {DM: TDataModule};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TfrmTelaPrincipal, frmTelaPrincipal);
+  Application.CreateForm(TDM, DM);
+  Application.Run;
+end.

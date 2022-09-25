@@ -1,0 +1,120 @@
+object frmTelaPrincipal: TfrmTelaPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'frmPrincipal'
+  ClientHeight = 480
+  ClientWidth = 287
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object PFundo: TPanel
+    Align = Client
+    Size.Width = 287.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object LDivisao: TLabel
+      Position.X = -8.000000000000000000
+      Position.Y = 16.000000000000000000
+      Size.Width = 361.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      Text = '_______________________________________________________________'
+      TabOrder = 2
+    end
+    object LObjetivoApp: TLabel
+      StyledSettings = [FontColor]
+      Position.X = 8.000000000000000000
+      Position.Y = 32.000000000000000000
+      Size.Width = 273.000000000000000000
+      Size.Height = 137.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Calibri'
+      TextSettings.Font.Size = 14.000000000000000000
+      Text = 
+        'Voc'#234' j'#225' pensou em algum momento algo como " Nossa, um aplicativo' +
+        ' para isso seria '#243'timo! ", " Como ningu'#233'm fez algo assim antes? ' +
+        '", " Poderia ter realizado essa a'#231#227'o em segundos com o app certo' +
+        '! " ? Caso sim, est'#225' '#233' sua oportunidade para se expressar! Conte' +
+        ' sua ideia!'
+      TabOrder = 1
+    end
+    object LTitulo: TLabel
+      Align = Top
+      StyledSettings = [FontColor]
+      Size.Width = 287.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'listboxheaderlabel'
+      TextSettings.Font.Family = 'Arial'
+      TextSettings.Font.Size = 16.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.HorzAlign = Center
+      Text = 'Apresente sua ideia!'
+      TabOrder = 0
+    end
+    object LUsuario: TLabel
+      StyledSettings = [Size, FontColor]
+      Position.X = 40.000000000000000000
+      Position.Y = 184.000000000000000000
+      Size.Width = 225.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Calibri'
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      Text = 'Quem '#233' o dono desta ideia?'
+      TabOrder = 4
+    end
+    object edtUsuario: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      StyleLookup = 'editstyle'
+      TabOrder = 5
+      Position.X = 40.000000000000000000
+      Position.Y = 216.000000000000000000
+      Hint = 'digite seu nome aqui'
+      Size.Width = 209.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object LIdeia: TLabel
+      StyledSettings = [Size, FontColor]
+      Position.X = 40.000000000000000000
+      Position.Y = 272.000000000000000000
+      Size.Width = 169.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Calibri'
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      Text = 'Qual a sua boa ideia?'
+      TabOrder = 3
+    end
+    object edtIdeia: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 6
+      Position.X = 40.000000000000000000
+      Position.Y = 304.000000000000000000
+      Hint = 'Conte aqui sua ideia!'
+      Size.Width = 209.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object btnEnviar: TButton
+      Position.X = 104.000000000000000000
+      Position.Y = 368.000000000000000000
+      TabOrder = 7
+      Text = 'Enviar'
+      OnClick = btnEnviarClick
+    end
+  end
+  object Conn: TFDConnection
+    Params.Strings = (
+      'Database=zueodxob'
+      'User_Name=zueodxob'
+      'Password=wt9VUDHmq1ghf0n8il8guKyaG5wo1BJd'
+      'Server=motty.db.elephantsql.com'
+      'DriverID=PG')
+    Left = 248
+    Top = 344
+  end
+end
